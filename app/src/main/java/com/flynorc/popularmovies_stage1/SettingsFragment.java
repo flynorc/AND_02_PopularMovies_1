@@ -8,7 +8,6 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.content.SharedPreferences;
 import android.preference.PreferenceScreen;
-import android.widget.CheckBox;
 
 /**
  * Created by Flynorc on 26-Feb-18.

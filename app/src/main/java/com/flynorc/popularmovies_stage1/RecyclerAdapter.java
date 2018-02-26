@@ -3,7 +3,6 @@ package com.flynorc.popularmovies_stage1;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -70,7 +69,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MovieV
              * I used the same approach as with the DetailsActivity
              * and the reference to moviePoster inside onBindViewHolder was null
              */
-            moviePoster = (ImageView) itemView.findViewById(R.id.movie_poster);
+            moviePoster = itemView.findViewById(R.id.movie_poster);
 
             itemView.setOnClickListener(this);
         }
